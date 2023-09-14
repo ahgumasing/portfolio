@@ -1,9 +1,9 @@
 <template>
     <div
         v-editable="blok"
-        class="text-5xl font-bold max-w-xl"
+        class="font-bold max-w-xl"
         :class="{
-            'py-8 mt-8': blok.style === 'heading',
+            'py-8 mt-8 text-5xl': blok.style === 'heading',
             'text-2xl': blok.style === 'medium',
             'text-lg': blok.style === 'base',
             'text-base font-medium': blok.style === 'small',
