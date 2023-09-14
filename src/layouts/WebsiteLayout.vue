@@ -43,7 +43,7 @@
                                 >
                                 🚀
                             </p>
-                            <p class="text-gray-400">
+                            <p class="text-gray-400∂">
                                 © 2023 Abette Gumasing. All rights reserved.
                             </p>
                         </footer>

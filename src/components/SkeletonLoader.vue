@@ -29,6 +29,21 @@
                                         class="w-96 h-56 rounded-md bg-gray-100 mb-4"
                                     ></div>
                                 </div>
+
+                                <div class="mt-24" v-for="x in 3" :key="x">
+                                    <div
+                                        class="bg-gray-100 animate-pulse w-64 h-6"
+                                    />
+
+                                    <div class="mt-12">
+                                        <div class="space-y-4">
+                                            <div class="bg-gray-100 w-96 h-4" />
+                                            <div class="bg-gray-100 w-64 h-4" />
+                                            <div class="bg-gray-100 w-56 h-4" />
+                                            <div class="bg-gray-100 w-32 h-4" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
