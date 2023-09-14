@@ -10,6 +10,9 @@ import Text from './components/Text.vue';
 import ImageLink from './components/ImageLink.vue';
 import Article from './components/Article.vue';
 import FlipImage from './components/FlipImage.vue';
+import Card from './components/Card.vue';
+import Spacer from './components/Spacer.vue';
+import Badge from './components/Badge.vue';
 
 import './css/tailwind.css';
 
@@ -32,5 +35,8 @@ app.component('Text', Text);
 app.component('ImageLink', ImageLink);
 app.component('Article', Article);
 app.component('FlipImage', FlipImage);
+app.component('Card', Card);
+app.component('Spacer', Spacer);
+app.component('Badge', Badge);
 
 app.mount('#app');

@@ -26,19 +26,4 @@ function resize(image, option) {
             />
         </a>
     </div>
-
-    <!-- <div
-        v-editable="blok"
-        class="py-2"
-        :class="{
-            'w-16 md:w-1/2': blok.width == 'small',
-            'w-36 md:w-3/4': blok.width == 'medium',
-            'w-full': blok.width == 'large',
-        }"
-    >
-        <img
-            :src="resize(blok.image.filename, '700x0')"
-            :alt="blok.image.alt"
-        />
-    </div> -->
 </template>

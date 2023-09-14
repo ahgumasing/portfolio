@@ -1,10 +1,16 @@
 <template>
     <div
         v-editable="blok"
-        class="py-8 text-5xl font-bold max-w-xl"
-        :class="{ 'text-3xl': blok.style === 'medium' }"
+        class="text-5xl font-bold max-w-xl"
+        :class="{
+            'py-8 mt-8': blok.style === 'heading',
+            'text-3xl': blok.style === 'medium',
+            'text-lg': blok.style === 'base',
+            'text-base font-medium': blok.style === 'small',
+            'text-sm font-normal text-gray-400': blok.style === 'x-small',
+        }"
     >
-        <h2 class="mt-8">{{ blok.headline }}</h2>
+        <h2>{{ blok.headline }}</h2>
     </div>
 </template>
 
